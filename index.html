@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+    <div class="container">
+        <div class="formula">
+            <p>Formula:</p>
+            <p>Celsius to Fahrenheit: (°C * 1.8) + 32</p>
+       
+        </div>
+        <!-- Add a dropdown menu for temperature selection -->
+<div class="converter">
+    <select id="conversionType">
+        <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+        <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+        <!-- Add more temperature conversion options as needed -->
+    </select>
+    <input type="number" id="temperatureInput" placeholder="Enter Temperature">
+    <button id="convertButton">Convert</button>
+    <input type="number" id="resultOutput" placeholder="Result" disabled>
+</div>
+
+    <footer>
+        <div class="formula">
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
